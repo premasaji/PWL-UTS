@@ -9,12 +9,12 @@ class ContactController extends Controller
     public function index()
     {
         $data = [
-            'email' => 'support@techsquad.id',
-            'alamat' => 'Gedung IT Lantai 3, Jl. Pendidikan No. 45',
+            'email' => 'support@1squad.id',
+            'alamat' => 'Gedung IT Lantai 3, Jl. Majapahit No. 45',
             'sosmed' => [
-                'instagram' => '@techsquad_id',
-                'github' => '://github.com',
-                'linkedin' => 'Tech Squad Indonesia'
+                'instagram' => '@Kelompok1squad_id',
+                'github' => 'premasaji.github.com',
+                'linkedin' => 'Kelompok 1'
             ]
         ];
 

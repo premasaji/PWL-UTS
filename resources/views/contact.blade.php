@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-8 text-gray-800 border-b-2 border-blue-600 inline-block">Hubungi Kami</h2>
+<div class="max-w-4xl mx-auto ">
+    <h2 class="text-3xl font-bold mb-8 text-gray-800 border-b-2 border-blue-600 inline-block m-[100px]">Hubungi Kami</h2>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Informasi Kontak -->

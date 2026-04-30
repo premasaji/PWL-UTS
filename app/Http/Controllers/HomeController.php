@@ -8,9 +8,11 @@ class HomeController extends Controller
 {
     public function index() {
         return view('home', [
-            'namaWebsite' => 'Tech Squad Profile',
-            'tagline' => 'Inovasi Tanpa Batas',
-            'namaKelompok' => 'Kelompok 5',
+            'namaWebsite' => 'Kelompok 1 Profile',
+            'tagline' => 'Website ini adalah hasil kerja kelompok 1 untuk memenuhi tugas mata kuliah Pemrograman Web Lanjut di semester 4.
+             Di dalam website ini, kami akan memperkenalkan anggota kelompok kami, menampilkan profil masing-masing anggota, serta memberikan informasi kontak untuk memudahkan komunikasi dengan kami.
+             Terima kasih telah mengunjungi website kami, dan jangan ragu untuk menjelajahi setiap halaman untuk mengetahui lebih banyak tentang kelompok kami!',
+            'namaKelompok' => 'Kelompok 1',
             'semester' => 'Semester 4'
         ]);
     }

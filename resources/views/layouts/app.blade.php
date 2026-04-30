@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
-    <nav class="bg-blue-500 p-4 text-white shadow-lg">
+    <nav class="bg-blue-500 p-4 text-white shadow-lg fixed top-0 left-0 right-0 ">
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="font-bold text-xl">TechSquad</h1>
             <div class="space-x-4">
