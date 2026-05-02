@@ -7,9 +7,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
-    <nav class="bg-blue-500 p-4 text-white shadow-lg fixed top-0 left-0 right-0 ">
+    <nav class="bg-blue-500 p-4 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="font-bold text-xl">TechSquad</h1>
+            <h1 class="font-bold text-xl">EngineerSquad</h1>
             <div class="space-x-4">
                 <a href="/home" class="hover:underline">Home</a>
                 <a href="/about" class="hover:underline">About</a>

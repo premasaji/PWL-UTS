@@ -6,18 +6,17 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function index()
+    public function contact()
     {
         $data = [
-            'email' => 'support@1squad.id',
-            'alamat' => 'Gedung IT Lantai 3, Jl. Majapahit No. 45',
+            'email' => 'onesquad@gmail.com',
+            'alamat' => 'Jl. Majapahit No. 15, Blitar',
             'sosmed' => [
-                'instagram' => '@Kelompok1squad_id',
-                'github' => 'premasaji.github.com',
-                'linkedin' => 'Kelompok 1'
+                'instagram' => '@onesquad_id',
+                'github' => 'onesquad.github.com',
+                'linkedin' => 'linkedin.com'
             ]
         ];
-
         return view('contact', $data);
     }
 }
