@@ -49,11 +49,11 @@
     </div>
      <!-- Misi Tim -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700 m-[75px]">
-        <div class="p-6 bg-white rounded-xl shadow-sm border-l-4 border-blue-600">
+        <div class="p-6 bg-white rounded-xl shadow-sm border-l-4 border-blue-600 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
             <h4 class="font-bold text-xl mb-2 text-blue-600">Visi Kami</h4>
             <p>Menjadi kelompok pengembang web yang inovatif dan solutif dalam menghadapi tantangan teknologi modern.</p>
         </div>
-        <div class="p-6 bg-white rounded-xl shadow-sm border-l-4 border-green-500">
+        <div class="p-6 bg-white rounded-xl shadow-sm border-l-4 border-green-500 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
             <h4 class="font-bold text-xl mb-2 text-green-600">Misi Kami</h4>
             <p>Menerapkan standar kode yang bersih, performa tinggi, dan pengalaman pengguna yang maksimal di setiap proyek.</p>
         </div>

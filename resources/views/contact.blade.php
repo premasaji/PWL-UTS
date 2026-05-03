@@ -47,7 +47,7 @@
                 </li>
                 <li class="flex justify-between items-center border-b border-blue-400 pb-2">
                     <span>LinkedIn</span>
-                    <span class="font-mono">Tech Squad</span>
+                    <span class="font-mono">OneSquad</span>
                 </li>
             </ul>
         </div>
